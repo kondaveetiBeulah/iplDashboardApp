@@ -30,7 +30,7 @@ class Home extends Component {
     return (
       <div className="container">
         {loader ? (
-          <div testid="loader">
+          <div data-testid="loader">
             <Loader type="Oval" color="#ffffff" height={50} width={50} />{' '}
           </div>
         ) : (
